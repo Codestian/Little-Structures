@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-structures",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "*",
+    "@nuxt/content": "*",
+    "@nuxtjs/auth": "*",
+    "@nuxtjs/axios": "*",
+    "@nuxtjs/pwa":"*",
+    "nuxt": "*",
+    "nuxt-fontawesome": "*"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "*",
+    "@nuxtjs/eslint-module": "*",
+    "@nuxtjs/moment": "*",
+    "@nuxtjs/style-resources": "*",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-nuxt": "*",
+    "eslint-plugin-prettier": "*",
+    "node-sass": "*",
+    "prettier": "*",
+    "sass-loader": "*"
+  }
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+
+  box-sizing: border-box;
+
+  font: inherit;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  vertical-align: baseline;
+
+  word-spacing: 1px;
+  letter-spacing: 1px;
+
+  line-height: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  background: rgb(12, 12, 12);
+}
+
+input {
+  line-height: 20px;
+}
+
+span {
+  display: block;
+}
+
+img {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
